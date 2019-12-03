@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{ed0b04a6-fecd-4a2c-a462-59a8f4639f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Assets\modelData">
+      <UniqueIdentifier>{06086914-6aa4-4cad-9b07-6f9d357f04df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\sprite">
+      <UniqueIdentifier>{a6ce300a-b532-440d-b914-b4661d3015ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\sound">
+      <UniqueIdentifier>{d883787a-3eb6-4e32-b758-b0be059a3959}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameCamera.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="BackGround.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="Title.cpp" />
+    <ClCompile Include="Enemy_01.cpp" />
+    <ClCompile Include="Enemy_02.cpp" />
+    <ClCompile Include="Star.cpp" />
+    <ClCompile Include="GameOver.cpp" />
+    <ClCompile Include="Floor.cpp" />
+    <ClCompile Include="GameClear.cpp" />
+    <ClCompile Include="ClearFont.cpp" />
+    <ClCompile Include="Title01.cpp" />
+    <ClCompile Include="TitleBg.cpp" />
+    <ClCompile Include="TitleUni.cpp" />
+    <ClCompile Include="TitleStar.cpp" />
+    <ClCompile Include="TitleCamera.cpp" />
+    <ClCompile Include="TitleFont.cpp" />
+    <ClCompile Include="JumpFloor.cpp" />
+    <ClCompile Include="GameData.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameCamera.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="BackGround.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="Title.h" />
+    <ClInclude Include="Enemy_01.h" />
+    <ClInclude Include="Enemy_02.h" />
+    <ClInclude Include="Star.h" />
+    <ClInclude Include="GameOver.h" />
+    <ClInclude Include="Floor.h" />
+    <ClInclude Include="GameClear.h" />
+    <ClInclude Include="ClearFont.h" />
+    <ClInclude Include="Title01.h" />
+    <ClInclude Include="TitleBg.h" />
+    <ClInclude Include="TitleUni.h" />
+    <ClInclude Include="TitleStar.h" />
+    <ClInclude Include="TitleCamera.h" />
+    <ClInclude Include="TitleFont.h" />
+    <ClInclude Include="JumpFloor.h" />
+    <ClInclude Include="GameData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MeshContentTask Include="Assets\modelData\unityChan.fbx">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\yuka.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\BackGround.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Enemy.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\star.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\enemy00.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\ugokuyuka.fbx">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\clear.fbx">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\ground.fbx">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\jumpFloor.fbx">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\starSky.fbx">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\sprite\dummy.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\sprite\Title.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\sprite\nextStage.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\Documents\GamePG\Lesson07_Question\Game\Assets\sound\coinGet.wav">
+      <Filter>Assets\sound</Filter>
+    </Media>
+    <Media Include="..\..\..\Documents\GamePG\Lesson07_Question\Game\Assets\sound\jump.wav">
+      <Filter>Assets\sound</Filter>
+    </Media>
+    <Media Include="..\..\..\Documents\GamePG\Lesson07_Question\Game\Assets\sound\normalBGM.wav">
+      <Filter>Assets\sound</Filter>
+    </Media>
+    <Media Include="..\..\..\Documents\GameMath\GameMath_1_Chapter3\Chapter_3\Chapter_3_1\Game\Assets\sound\title.wav">
+      <Filter>Assets\sound</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\sprite\sky.png">
+      <Filter>Assets\sprite</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
